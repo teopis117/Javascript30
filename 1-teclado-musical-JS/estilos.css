@@ -1,0 +1,57 @@
+html
+{
+    font-size: 10px;
+    /* definimos el fondo de la pagina */
+    background: url("background.jpg");
+    background-size: cover;background-repeat: no-repeat;
+}
+
+/* reseteamos todos los elementos  */
+body,html
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+/* estilos para el contenedor */
+.teclas
+{
+    display: flex;
+    flex: 1;
+    /* hacemos que el contenedor de las teclas ocupe el 100% */
+    min-height: 100vh;
+    /* centramos las teclas */
+    align-items: center;
+    justify-content: center;
+}
+
+/* estilos para tecla individualemente */
+.key
+{
+    
+    color: #fff;
+    border: 0.4rem solid black;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem 5rem;
+    transition: all 0.07s ease;
+    widows: 10rem;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+    text-shadow: 0 0 .5rem black;
+}
+
+kbd
+{
+    display: block;
+    font-size: 4rem;
+}
+
+.tocando
+
+{
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+  }
